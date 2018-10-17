@@ -1,0 +1,79 @@
+# Exercises
+
+#1. 
+
+puts "James " + "Wilson"
+
+#2.
+
+1234 / 1000
+1234 % 1000 / 100
+1234 % 1000 % 100 / 10
+1234 % 1000 % 100 % 10
+
+
+#3
+
+# Okay, according to the solution this is wrong because I didn't state what the category was
+# to begin with.  For example, I don't label the hash as movies. See below.  Also,
+# their solution is from an updated syntax of the hash. Ruby 1.9 
+{:black_panther => '2018', :beavis_and_butthead => '1992', :wolverine => '2016', :bright => '2018', :seventh_son => '2015'}
+puts [black_panther]
+puts beavis_and_butthead
+puts wolverine
+puts seventh_son
+
+movies = { black_panther: 2018,
+           beavis_and_butthead: 1992,
+           wolverine: 2016,
+           bright: 2018,
+           the_witch: 2015 }
+
+puts movies[:black_panther]
+puts movies[:beavis_and_butthead]
+puts movies[:wolverine]
+puts movies[:bright]
+puts movies[:the_witch]
+
+# I think I understand this other way of making hashes.  Also,
+# I need to ID what the hash group will be. These were movies, so
+# movies = {blah blah movies}
+# puts movies [:which movie]
+
+#4
+
+dates = [1992, 2015, 2016, 2018, 2018]
+puts dates [0]
+puts dates [1]
+puts dates [2]
+puts dates [3]
+puts dates [4] #(I start 0 and stop at 4 because arrays start with 0, so five items is -0-4)\
+
+#5
+
+puts 5 * 4 * 3 * 2 * 1
+puts 6 * 5 * 4 * 3 * 2 * 1
+puts 7 * 6 * 5 * 4 * 3 * 2 * 1
+puts 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+
+# 6
+
+# I really have no idea on how to calculate the squares of three numbers
+# hmm...lemme see if i can figure it out before the solution
+
+# Okay, so three float numbers.  Floats have decimals.
+
+#So, let's try this:
+
+puts 19.0 * 19.0
+puts 9.0 * 9.0
+puts 19.9 * 19.9
+
+# Cool! I figured it out! XD
+
+# 7
+
+# I think that the error message is telling me that it was expecting a " }" and got a ")" instead.
+
+# It seems like I was somewhat close.  But basically it is saying that there is an opening bracket
+# without a closing bracket.
